@@ -1,7 +1,7 @@
-# ts-abbreviation-skill
+# ts-abbr-skill
 
 <p align="center">
-  <img src="assets/logo.png" alt="ts-abbreviation-skill" width="480">
+  <img src="assets/logo.png" alt="ts-abbr-skill" width="480">
 </p>
 
 <p align="center">
@@ -11,12 +11,12 @@
 
 <p align="center">
   <a href="https://github.com/aShu-guo/ts-abbreviation-skill/releases"><img src="https://img.shields.io/github/v/release/aShu-guo/ts-abbreviation-skill?style=for-the-badge&color=blue" alt="GitHub Release"></a>
-  <a href="https://www.npmjs.com/package/ts-abbreviation-skill"><img src="https://img.shields.io/npm/v/ts-abbreviation-skill?style=for-the-badge&logo=npm&color=red" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/ts-abbr-skill"><img src="https://img.shields.io/npm/v/ts-abbr-skill?style=for-the-badge&logo=npm&color=red" alt="npm version"></a>
   <a href="https://github.com/aShu-guo/ts-abbreviation-skill/blob/main/LICENSE"><img src="https://img.shields.io/github/license/aShu-guo/ts-abbreviation-skill?style=for-the-badge&color=green" alt="License"></a>
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/ts-abbreviation-skill"><img src="https://img.shields.io/npm/dm/ts-abbreviation-skill?style=flat-square&label=downloads" alt="npm downloads"></a>
+  <a href="https://www.npmjs.com/package/ts-abbr-skill"><img src="https://img.shields.io/npm/dm/ts-abbr-skill?style=flat-square&label=downloads" alt="npm downloads"></a>
   <a href="https://github.com/aShu-guo/ts-abbreviation-skill/stargazers"><img src="https://img.shields.io/github/stars/aShu-guo/ts-abbreviation-skill?style=flat-square&logo=github" alt="GitHub stars"></a>
 </p>
 
@@ -25,13 +25,13 @@ A Claude Code skill that makes generated/refactored TypeScript naming follow a s
 ## Install
 
 ```bash
-npx ts-abbreviation-skill
+npx ts-abbr-skill
 ```
 
 You'll be asked where to install:
 
-- **Project** — `./.claude/skills/ts-abbreviation-skill/` (recommended for team-shared conventions, commit this to your repo)
-- **Global** — `~/.claude/skills/ts-abbreviation-skill/` (applies to all your projects)
+- **Project** — `./.claude/skills/ts-abbr-skill/` (recommended for team-shared conventions, commit this to your repo)
+- **Global** — `~/.claude/skills/ts-abbr-skill/` (applies to all your projects)
 
 Both can be selected at once. Re-running the installer is safe: your customized `config/default.config.json` and `dictionary/default.json` are never overwritten.
 
@@ -73,7 +73,7 @@ Full dictionary: [`skill/dictionary/default.json`](skill/dictionary/default.json
 
 `scope` accepts `variable`, `parameter`, `localFunction`, `class`. `exported` controls whether public/exported symbols are eligible (default `false`).
 
-**Project-specific additions** — add `.claude/ts-abbreviation.local.json` at your repo root; entries are merged on top of the default dictionary:
+**Project-specific additions** — add `.claude/ts-abbr.local.json` at your repo root; entries are merged on top of the default dictionary:
 
 ```json
 {
@@ -94,7 +94,7 @@ For iterating on skill content, use a symlink instead of rebuilding:
 
 ```bash
 ln -sfn /path/to/ts-abbreviation-skill/skill \
-  your-test-project/.claude/skills/ts-abbreviation-skill
+  your-test-project/.claude/skills/ts-abbr-skill
 ```
 
 ## License

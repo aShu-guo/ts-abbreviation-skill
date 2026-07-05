@@ -1,10 +1,10 @@
 {
-  "name": "ts-abbreviation-skill",
-  "version": "0.1.0",
+  "name": "ts-abbr-skill",
+  "version": "1.0.0",
   "description": "Claude Code skill that applies a configurable abbreviation dictionary (business→biz, context→ctx, ...) to TypeScript variable/parameter naming.",
   "type": "module",
   "bin": {
-    "ts-abbreviation-skill": "dist/cli.js"
+    "ts-abbr-skill": "dist/cli.js"
   },
   "files": [
     "dist",

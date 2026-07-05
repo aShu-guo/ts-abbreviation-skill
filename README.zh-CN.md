@@ -1,7 +1,7 @@
-# ts-abbreviation-skill
+# ts-abbr-skill
 
 <p align="center">
-  <img src="assets/logo.png" alt="ts-abbreviation-skill" width="480">
+  <img src="assets/logo.png" alt="ts-abbr-skill" width="480">
 </p>
 
 <p align="center">
@@ -11,12 +11,12 @@
 
 <p align="center">
   <a href="https://github.com/aShu-guo/ts-abbreviation-skill/releases"><img src="https://img.shields.io/github/v/release/aShu-guo/ts-abbreviation-skill?style=for-the-badge&color=blue" alt="GitHub Release"></a>
-  <a href="https://www.npmjs.com/package/ts-abbreviation-skill"><img src="https://img.shields.io/npm/v/ts-abbreviation-skill?style=for-the-badge&logo=npm&color=red" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/ts-abbr-skill"><img src="https://img.shields.io/npm/v/ts-abbr-skill?style=for-the-badge&logo=npm&color=red" alt="npm version"></a>
   <a href="https://github.com/aShu-guo/ts-abbreviation-skill/blob/main/LICENSE"><img src="https://img.shields.io/github/license/aShu-guo/ts-abbreviation-skill?style=for-the-badge&color=green" alt="License"></a>
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/ts-abbreviation-skill"><img src="https://img.shields.io/npm/dm/ts-abbreviation-skill?style=flat-square&label=downloads" alt="npm downloads"></a>
+  <a href="https://www.npmjs.com/package/ts-abbr-skill"><img src="https://img.shields.io/npm/dm/ts-abbr-skill?style=flat-square&label=downloads" alt="npm downloads"></a>
   <a href="https://github.com/aShu-guo/ts-abbreviation-skill/stargazers"><img src="https://img.shields.io/github/stars/aShu-guo/ts-abbreviation-skill?style=flat-square&logo=github" alt="GitHub stars"></a>
 </p>
 
@@ -25,13 +25,13 @@
 ## 安装
 
 ```bash
-npx ts-abbreviation-skill
+npx ts-abbr-skill
 ```
 
 安装时会询问装到哪里：
 
-- **项目级** — `./.claude/skills/ts-abbreviation-skill/`（推荐团队共享，提交到仓库）
-- **全局** — `~/.claude/skills/ts-abbreviation-skill/`（适用于你所有的项目）
+- **项目级** — `./.claude/skills/ts-abbr-skill/`（推荐团队共享，提交到仓库）
+- **全局** — `~/.claude/skills/ts-abbr-skill/`（适用于你所有的项目）
 
 两个选项可以同时勾选。重复运行安装器是安全的：目标路径下已存在的 `config/default.config.json` 和 `dictionary/default.json` 不会被覆盖。
 
@@ -73,7 +73,7 @@ npx ts-abbreviation-skill
 
 `scope` 可选值：`variable`、`parameter`、`localFunction`、`class`。`exported` 控制是否对导出/公共符号生效（默认 `false`）。
 
-**添加项目专属缩写** — 在仓库根目录放 `.claude/ts-abbreviation.local.json`，词条会合并覆盖默认词典：
+**添加项目专属缩写** — 在仓库根目录放 `.claude/ts-abbr.local.json`，词条会合并覆盖默认词典：
 
 ```json
 {
@@ -94,7 +94,7 @@ node dist/cli.js     # 本地测试安装器
 
 ```bash
 ln -sfn /path/to/ts-abbreviation-skill/skill \
-  your-test-project/.claude/skills/ts-abbreviation-skill
+  your-test-project/.claude/skills/ts-abbr-skill
 ```
 
 ## License
