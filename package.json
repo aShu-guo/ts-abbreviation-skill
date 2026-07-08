@@ -1,6 +1,6 @@
 {
   "name": "ts-abbr-skill",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Agent skill (Claude Code, Codex, and more) that applies a configurable abbreviation dictionary (business→biz, context→ctx, ...) to TypeScript variable/parameter naming.",
   "type": "module",
   "bin": {
@@ -15,6 +15,10 @@
     "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test test/*.test.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
@@ -35,12 +39,17 @@
     "prompts": "^2.4.2"
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.4",
     "@types/node": "^20.14.0",
     "@types/prompts": "^2.4.9",
+    "eslint": "^9.39.4",
+    "eslint-config-prettier": "^9.1.2",
+    "prettier": "^3.9.4",
     "ts-morph": "^23.0.0",
     "tsup": "^8.2.4",
     "tsx": "^4.16.2",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.63.0"
   },
   "engines": {
     "node": ">=18"

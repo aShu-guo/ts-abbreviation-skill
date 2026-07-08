@@ -95,5 +95,7 @@
   "implementation": "impl",
   "instance": "inst",
   "namespace": "ns",
-  "seconds": "secs"
+  "seconds": "secs",
+  "public": "pub",
+  "private": "pvt"
 }
