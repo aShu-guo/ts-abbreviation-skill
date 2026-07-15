@@ -97,5 +97,6 @@
   "namespace": "ns",
   "seconds": "secs",
   "public": "pub",
-  "private": "pvt"
+  "private": "pvt",
+  "cesium": "czm"
 }
